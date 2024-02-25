@@ -7,3 +7,4 @@ from .models import Task
 
 class Tasklist(ListView):
     model = Task
+    context_object_name = 'tasks'
